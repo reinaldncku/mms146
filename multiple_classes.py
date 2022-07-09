@@ -26,5 +26,7 @@ car1.increase_speed()
 print ("After increase speed: ", car1.speed)
 print ("Name of new robot: ", elon_robot.name)
 
-
-
+''' 
+Ok, my documentation here is very simple. But, you have to provide more. 
+Again, this is just an example.
+'''
