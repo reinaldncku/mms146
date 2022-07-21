@@ -21,10 +21,10 @@ class Student(HumanBeing):
 		print ("GWA: ", self.gwa)
 
 
-jiawen = Student(1.5, "NCKU", "Jiawen", 60, "Chinese")
-jiawen.print_weight()
-jiawen.print_gwa()
-
 timothy = HumanBeing("Timothy", 70, "Taiwanese")
 timothy.print_weight()
 #timothy.print_gwa() # This line of code will result in an error
+
+jiawen = Student(1.5, "NCKU", "Jiawen", 60, "Chinese")
+jiawen.print_weight()
+jiawen.print_gwa()
