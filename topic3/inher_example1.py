@@ -8,14 +8,14 @@ class HumanBeing:
 		self.citizenship = c
 		
 	def print_weight(self):
-	    print (self.weight, " kg")
+	    	print (self.weight, " kg")
 
 
 class Student(HumanBeing):
 	def __init__(self, g, s, n, w, c):
-	    super().__init__(n, w, c)
-	    self.gwa = g
-	    self.school = s
+	    	super().__init__(n, w, c)
+	    	self.gwa = g
+	    	self.school = s
 		
 	def print_gwa(self):
 		print ("GWA: ", self.gwa)
