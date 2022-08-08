@@ -18,5 +18,5 @@ class HumanBeing:
 # Main Program
 iw = HumanBeing("Ing-wen", 70, "Taiwanese")
 iw.get_name()
-iw.__get_more_name()
+#iw.__get_more_name()  # This is illegal, take note
 
